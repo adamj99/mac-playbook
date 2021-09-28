@@ -1,10 +1,6 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_dotfiles: true
-configure_terminal: true
-configure_osx: true
-
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
 dockitems_remove: 
@@ -26,16 +22,6 @@ configure_sudoers: true
 sudoers_custom_config: |
    # Allow users in admin group to use sudo with no password.
    %admin ALL=(ALL) NOPASSWD: ALL
-
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
-dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
-dotfiles_files:
-  - .zshrc
-  - .gitignore
-  - .inputrc
-  - .osx
-  - .vimrc
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
@@ -111,14 +97,6 @@ mas_installed_apps: []
 mas_email: ""
 mas_password: ""
 
-osx_script: "~/.osx --no-restart"
-
-composer_packages: []
-gem_packages: []
-npm_packages: []
-pip_packages: []
-
-
 # Set to 'true' to configure Sublime Text.
 configure_sublime: true
 sublime_base_path: '~/Library/Application Support/Sublime Text'
@@ -136,6 +114,3 @@ sublime_package_control:
   - "SublimeLinter-contrib-yamllint"
   - "TrailingSpaces"
   - "WordCount"
-
-# Glob pattern to ansible task files to run after all other tasks are finished.
-post_provision_tasks: []
