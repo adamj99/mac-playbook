@@ -36,6 +36,7 @@ homebrew_installed_packages:
   - coreutils
   - dos2unix
   - doxygen
+  - dmg2img
   - gettext
   - gifsicle
   - git
