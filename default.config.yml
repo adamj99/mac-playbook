@@ -1,0 +1,137 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_dotfiles: true
+configure_terminal: true
+configure_osx: true
+
+# Set to 'true' to configure the Dock via dockutil.
+configure_dock: true
+dockitems_remove: 
+ - Launchpad
+ - TV
+ - Podcasts
+ - 'App Store'
+dockitems_persist: []
+# - name: "Sublime Text"
+#   path: "/Applications/Sublime Text.app/"
+#   pos: 5
+
+configure_sudoers: false
+sudoers_custom_config: ''
+# Example:
+# sudoers_custom_config: |
+#   # Allow users in admin group to use sudo with no password.
+#   %admin ALL=(ALL) NOPASSWD: ALL
+
+dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
+dotfiles_files:
+  - .zshrc
+  - .gitignore
+  - .inputrc
+  - .osx
+  - .vimrc
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - autoconf
+  - awscli
+  - bash-completion
+  - cask
+  - checkov
+  - dos2unix
+  - doxygen
+  - gettext
+  - gifsicle
+  - git
+  - grep
+  - helm
+  - jq
+  - iperf
+  - k6
+  - libpq
+  - libevent
+  - sqlite
+  - minikube
+  - nmap
+  - node
+  - packer
+  - pre-commit
+  - pyenv
+  - tlc-tk
+  - terraform-docs
+  - terragrunt
+  - terrascan
+  - tfenv
+  - tflint
+  - tfsec
+  - ssh-copy-id
+  - cowsay
+  - readline
+  - openssl
+  - pv
+  - wget
+  - wrk
+  - zsh-history-substring-search
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - atom
+  - bitwarden
+  - dbeaver-community
+  - docker
+  - drawio
+  - evernote
+  - firefox
+  - iterm2
+  - keystore-explorer
+  - pgadmin4
+  - postman
+  - rectangle
+  - skitch
+  - slack
+  - sublime-text
+  - transmit
+  - vagrant
+  - virtualbox
+  - visual-studio-code
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+mas_installed_apps: []
+mas_email: ""
+mas_password: ""
+
+osx_script: "~/.osx --no-restart"
+
+composer_packages: []
+gem_packages: []
+npm_packages: []
+pip_packages: []
+
+
+# Set to 'true' to configure Sublime Text.
+configure_sublime: true
+sublime_base_path: '~/Library/Application Support/Sublime Text'
+sublime_config_path: "Packages/User"
+sublime_package_control:
+  - "DocBlockr"
+  - "Dockerfile Syntax Highlighting"
+  - "FileDiffs"
+  - "GitHub Flavored Markdown Preview"
+  - "Jinja2"
+  - "Package Control"
+  - "PHP-Twig"
+  - "Pretty JSON"
+  - "SublimeLinter"
+  - "SublimeLinter-contrib-yamllint"
+  - "TrailingSpaces"
+  - "WordCount"
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
