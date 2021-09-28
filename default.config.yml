@@ -33,12 +33,14 @@ homebrew_installed_packages:
   - bash-completion
   - cask
   - checkov
+  - coreutils
   - dos2unix
   - doxygen
   - gettext
   - gifsicle
   - git
   - grep
+  - gzip
   - helm
   - jq
   - iperf
