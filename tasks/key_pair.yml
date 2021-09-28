@@ -5,5 +5,5 @@
     type: rsa
     size: 4096
     state: present
-    force: no
+    force: "{{ force_key_pair_replace }}"
   loop: "{{  ssh_key_pairs  }}"
