@@ -95,11 +95,6 @@ homebrew_cask_apps:
   - virtualbox
   - visual-studio-code
 
-# See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
-mas_email: ""
-mas_password: ""
-
 # Set to 'true' to configure Sublime Text.
 configure_sublime: true
 sublime_base_path: '~/Library/Application Support/Sublime Text'
