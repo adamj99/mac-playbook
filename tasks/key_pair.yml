@@ -1,0 +1,9 @@
+---
+- name: generate SSH key for "{{ item }}"
+  openssh_keypair:
+    path: "~/.ssh/{{ item }}"
+    type: rsa
+    size: 4096
+    state: present
+    force: no
+  loop: "{{  ssh_key_pairs  }}"
