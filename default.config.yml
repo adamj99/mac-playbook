@@ -2,12 +2,18 @@
 downloads: ~/.ansible-downloads/
 
 # Set to 'true' to configure the Dock via dockutil.
-configure_dock: false
+configure_dock: true
 dockitems_remove: 
  - Launchpad
  - TV
  - Podcasts
  - 'App Store'
+ - Safari
+ - FaceTime
+ - Messages
+ - Maps
+ - Contacts
+ 
 dockitems_persist: []
 # - name: "Sublime Text"
 #   path: "/Applications/Sublime Text.app/"
@@ -59,7 +65,6 @@ homebrew_installed_packages:
   - terraform-docs
   - terragrunt
   - terrascan
-  - tfenv
   - tflint
   - tfsec
   - ssh-copy-id
@@ -95,7 +100,6 @@ homebrew_cask_apps:
   - sublime-text
   - transmit
   - vagrant
-  - virtualbox
   - visual-studio-code
 
 # Set to 'true' to configure Sublime Text.
