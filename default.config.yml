@@ -13,6 +13,7 @@ dockitems_remove:
  - Messages
  - Maps
  - Contacts
+ - Music
  
 dockitems_persist: []
 # - name: "Sublime Text"
@@ -67,7 +68,7 @@ homebrew_installed_packages:
   - packer
   - pre-commit
   - pyenv
-  - tlc-tk
+  - tcl-tk
   - terraform-docs
   - terragrunt
   - terrascan
