@@ -18,6 +18,9 @@
     - role: geerlingguy.mac.dock
       when: configure_dock
       tags: ['dock']
+    - role: geerlingguy.dotfiles
+      when: configure_dotfiles
+      tags: ['dotfiles']
 
   tasks:
     - import_tasks: tasks/sudoers.yml
@@ -27,6 +30,10 @@
     - import_tasks: tasks/key_pair.yml
       when: configure_ssh_key_pair
       tags: ['ssh_keys']
+      
+    - import_tasks: tasks/osx.yml
+      when: configure_osx
+      tags: ['osx']
 
     - import_tasks: tasks/sublime-text.yml
       when: configure_sublime
