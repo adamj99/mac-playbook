@@ -4,7 +4,6 @@ downloads: ~/.ansible-downloads/
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
 dockitems_remove: 
- - Launchpad
  - TV
  - Podcasts
  - 'App Store'
@@ -17,16 +16,46 @@ dockitems_remove:
  - Photos
  
 dockitems_persist: 
+ - name: "Finder"
+   path: "/Applications/Finder.app/"
+   pos: 1
+ - name: "Launchpad"
+   path: "/Applications/Launchpad.app/"
+   pos: 2
+- name: "Visual Studio Code"
+   path: "/Applications/Visual Studio Code.app/"
+   pos: 3
  - name: "Firefox"
    path: "/Applications/Firefox.app/"
-   pos: 2
- - name: "Visual Studio Code"
-   path: "/Applications/Visual Studio Code.app/"
    pos: 4
- - name: "Authy Desktop"
-   path: "/Applications/Authy Desktop.app/"
-   pos: 4
-
+ - name: "Calender"
+   path: "/Applications/Calender.app/"
+   pos: 5
+ - name: "Reminders"
+   path: "/Applications/Reminders.app/"
+   pos: 6
+ - name: "Evernote"
+   path: "/Applications/Evernote.app/"
+   pos: 7
+ - name: "Skitch"
+   path: "/Applications/Skitch.app/"
+   pos: 8
+ - name: "System Preferences"
+   path: "/Applications/System Preferences.app/"
+   pos: 9 
+- name: "draw.io.app"
+   path: "/Applications/draw.io.app/"
+   pos: 10
+- name: "Slack"
+   path: "/Applications/Slack.app/"
+   pos: 11
+- name: "Docker"
+   path: "/Applications/Docker.app/"
+   pos: 12
+- name: "iTerm"
+   path: "/Applications/iTerm.app/"
+   pos: 13
+   
 # Variables for creating new ssh key pairs
 configure_ssh_key_pair: true
 ssh_key_pairs:
