@@ -147,7 +147,7 @@ configure_osx: true
 osx_script: "sh ~/.osx --no-restart"
 
 # Set to 'true' to configure Sublime Text.
-configure_sublime: true
+configure_sublime: false
 sublime_base_path: '~/Library/Application Support/Sublime Text'
 sublime_config_path: "Packages/User"
 sublime_package_control:
