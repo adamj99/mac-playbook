@@ -147,7 +147,7 @@ homebrew_cask_apps:
   - visual-studio-code
   
 configure_osx: true
-osx_script: "~/.osx --no-restart"
+osx_script: "sh ~/.osx --no-restart"
 
 # Set to 'true' to configure Sublime Text.
 configure_sublime: true
