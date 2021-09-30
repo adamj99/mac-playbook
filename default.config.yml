@@ -22,7 +22,7 @@ dockitems_persist:
  - name: "Launchpad"
    path: "/Applications/Launchpad.app/"
    pos: 2
-- name: "Visual Studio Code"
+ - name: "Visual Studio Code"
    path: "/Applications/Visual Studio Code.app/"
    pos: 3
  - name: "Firefox"
@@ -43,16 +43,16 @@ dockitems_persist:
  - name: "System Preferences"
    path: "/Applications/System Preferences.app/"
    pos: 9 
-- name: "draw.io.app"
+ - name: "draw.io.app"
    path: "/Applications/draw.io.app/"
    pos: 10
-- name: "Slack"
+ - name: "Slack"
    path: "/Applications/Slack.app/"
    pos: 11
-- name: "Docker"
+ - name: "Docker"
    path: "/Applications/Docker.app/"
    pos: 12
-- name: "iTerm"
+ - name: "iTerm"
    path: "/Applications/iTerm.app/"
    pos: 13
    
