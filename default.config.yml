@@ -28,6 +28,7 @@ ssh_key_pairs:
 # Change to yes if you want to override previously created key pairs
 force_key_pair_replace: no
 
+configure_dotfiles: true
 dotfiles_repo: https://github.com/adamj99/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
