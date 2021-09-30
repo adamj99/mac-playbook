@@ -1,4 +1,9 @@
 ---
+- name: ensure ssh directory exists
+  file:
+    path: ~/.ssh/
+    state: directory
+    
 - name: generate SSH key for "{{ item }}"
   openssh_keypair:
     path: "~/.ssh/{{ item }}"
