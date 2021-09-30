@@ -16,9 +16,6 @@ dockitems_remove:
  - Photos
  
 dockitems_persist: 
- - name: "Finder"
-   path: "/Applications/Finder.app/"
-   pos: 1
  - name: "Launchpad"
    path: "/Applications/Launchpad.app/"
    pos: 2
@@ -28,8 +25,8 @@ dockitems_persist:
  - name: "Firefox"
    path: "/Applications/Firefox.app/"
    pos: 4
- - name: "Calender"
-   path: "/Applications/Calender.app/"
+ - name: "Calendar"
+   path: "/Applications/Calendar.app/"
    pos: 5
  - name: "Reminders"
    path: "/Applications/Reminders.app/"
