@@ -114,7 +114,6 @@ homebrew_installed_packages:
   - openssl
   - pv
   - wget
-  - wrk
   - zsh-history-substring-search
 
 homebrew_taps:
