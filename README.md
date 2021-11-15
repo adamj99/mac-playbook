@@ -3,7 +3,9 @@
 This playbook installs and configures most of the software I use on my Mac for web and software development. Some things in macOS are slightly difficult to automate, so I still have a few manual installation steps, but at least it's all documented here.
 ## Installation
 
-- Ensure Apple's command line tools are installed (xcode-select --install to launch the installer).
+- Ensure Apple's command line tools are installed (```xcode-select --install``` to launch the installer).
+
+- Ensure Rosetta 2 is installed for M1 Macs (```sudo softwareupdate --install-rosetta``` to launch the installer).
 
 - Install Ansible:
     - Run the following command to add Python 3 to your $PATH: ```export PATH="$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:$PATH"```
