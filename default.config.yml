@@ -2,7 +2,7 @@
 downloads: ~/.ansible-downloads/
 
 # Set to 'true' to configure the Dock via dockutil.
-configure_dock: true
+configure_dock: false
 dockitems_remove: 
  - TV
  - Podcasts
