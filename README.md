@@ -23,7 +23,7 @@ Note: If some Homebrew commands fail, you might need to agree to Xcode's license
 ## Options (configured in default.config.yml)
 Config | Default | Information
 ------------ | ------------- | -------------
-configure_dock | True | Configures the dock with newly installed packages and removes Apple packages
+configure_dock | False | Configures the dock with newly installed packages and removes Apple packages
 configure_ssh_key_pair | True | Generates new ssh key pairs (can create multiple)
 configure_dotfiles | True | Downloads dot files from remote repos
 configure_sudoers | True | Adds a line to sudoers file to stop password prompt
