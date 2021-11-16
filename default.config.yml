@@ -131,10 +131,20 @@ homebrew_cask_apps:
   - evernote
   - firefox
   - iterm2
+  - go
+  - k9s
+  - wireguard-tools
+  - screen
+  - gpg
+  - discord
+  - google-cloud-sdk
+  - zoom
+  - 1password
   - keystore-explorer
   - pgadmin4
   - postman
   - rectangle
+  - kubernetes-cli
   - skitch
   - slack
   - sublime-text
