@@ -108,6 +108,7 @@ homebrew_installed_packages:
   - wireguard-tools
   - screen
   - gpg
+  - massCode
   - terraform-docs
   - kubernetes-cli
   - terragrunt
