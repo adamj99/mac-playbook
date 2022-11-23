@@ -129,11 +129,14 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - 1password
   - atom
   - authy
   - bitwarden
   - dbeaver-community
   - docker
+  - raycast
+  - masscode
   - drawio
   - evernote
   - firefox
