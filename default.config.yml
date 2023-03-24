@@ -107,6 +107,8 @@ homebrew_installed_packages:
   - k9s
   - wireguard-tools
   - screen
+  - hadolint
+  - gitleaks
   - gpg
   - terraform-docs
   - kubernetes-cli
